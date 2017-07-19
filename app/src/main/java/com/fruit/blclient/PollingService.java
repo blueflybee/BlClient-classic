@@ -97,9 +97,9 @@ public class PollingService extends Service {
       public void run() {
         if (mBluetooth != null) {
 
-//                    mBluetooth.connect("B4:0B:44:35:EB:0A");
-//          mBluetooth.connect("D4:50:3F:98:BA:B6");//智能锁
-          mBluetooth.connect("78:02:F8:D7:67:95");//小米5s
+                    mBluetooth.connect("DC:A3:AC:0A:0D:3D");//智能锁 HC LOCK F 0A0D3D
+//          mBluetooth.connect("D4:50:3F:98:BA:B6");// OPPO A57
+//          mBluetooth.connect("78:02:F8:D7:67:95");//小米5s
         }
       }
     }, 800); //设置至少大于500的延迟。
